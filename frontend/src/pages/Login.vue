@@ -10,7 +10,7 @@
         <q-card
           bordered
           class="card q-pa-md shadow-10"
-          style="border-top: 5px solid #3E72AF; background-color: rgba(255,255,255,0.75); border-radius: 20px"
+          style="border-top: 5px solid #862426; background-color: rgba(255,255,255,0.75); border-radius: 20px"
         >
           <q-card-section class="text-primary text-center">
             <q-img
@@ -23,7 +23,7 @@
           </q-card-section>
           <q-card-section class="text-primary">
             <div class="text-h6">Bem vindo!</div>
-            <div class="text-caption text-grey">Faça login...</div>
+            <div class="text-caption text-grey">Faça login com seu email e senha...</div>
           </q-card-section>
 
           <q-card-section>
@@ -32,7 +32,7 @@
               clearable
               rounded
               v-model="form.email"
-              placeholder="meu@email.com"
+              placeholder="usuario@mlemos.com.br"
               @blur="$v.form.email.$touch"
               :error="$v.form.email.$error"
               error-message="Deve ser um e-mail válido."

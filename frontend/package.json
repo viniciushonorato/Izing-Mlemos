@@ -1,9 +1,9 @@
 {
-  "name": "izing",
+  "name": "Mlemos Chat",
   "version": "2.3.0",
   "description": "Bot Multiatendimento, multicanais e multiempresas.",
-  "productName": "IZING",
-  "author": "Durans <lumardyelson@gmail.com>",
+  "productName": "Mlemos Chat",
+  "author": "Honoratos System <comercial@honoratos.com>",
   "private": false,
   "license": "AGPL-3.0-or-later",
   "github": "https://github.com/cleitonme/izing.open.io",
